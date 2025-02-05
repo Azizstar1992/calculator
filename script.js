@@ -1,7 +1,7 @@
 // Select all relevant elements
 const answerDisplay = document.querySelector(".answer");
 const buttons = document.querySelectorAll("button");
-
+answerDisplay.textContent = "0";
 // Initialize variables to track the calculator's state
 let currentInput = ""; // Stores the current number being entered
 let previousInput = ""; // Stores the previous number in the calculation
